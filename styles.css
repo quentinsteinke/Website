@@ -18,7 +18,7 @@ h2 {
 }
 
 p {
-    color:#172121;
+    color:#333d3d;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -34,15 +34,22 @@ img {
 }
 
 .headershape {
-    margin: 20px;
-    height: 200px;
-    width: 100%;;
-    background-color: #846267;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 5px #121414;
+    /*border: 3px solid #61484c;*/
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #1c1c1c;
     position: relative;
+    text-align: center;
+    /*transform: translate(-50%, -50%);*/
 }
 
 .text {
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 30px;
 }
