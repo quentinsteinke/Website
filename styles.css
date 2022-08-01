@@ -35,7 +35,7 @@ h2 {
 }
 
 p {
-    color:#FFFFFF;
+    color:#141414;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
 }
@@ -46,15 +46,27 @@ img {
     margin-right: auto;
 }
 
+header {
+    position: relative;
+    text-align: left;
+}
+
+.header_text {
+    position: relative;
+    text-align: left;
+}
+
 .headershape {
     width: 100%;
     height: auto;
+    margin: 0;
+    padding-top: 0;
     border-bottom-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
     background-color: #4D4D4D;
     padding-bottom: 1rem;
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 .navbar {
@@ -65,12 +77,24 @@ img {
     background-color: #999999;
 }
 
-.nabar_menu {
+.navbar_menu {
+    font-size: 1rem;
+    text-decoration: none;
     position: relative;
-    text-align: left;
+    float: left;
 }
 
-.header_text {
-    position: relative;
-    text-align: center;
+ul {
+    text-decoration: none;
+    color: #141414;
+}
+
+ol {
+    text-decoration: none;
+    color: #141414;
+}
+
+a {
+    text-decoration: none;
+    color: #141414;
 }
