@@ -1,0 +1,34 @@
+* {
+    color: antiquewhite;
+    margin: 0;
+    background: transparent;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+section {
+    background-color:  rgb(141, 63, 172);
+    height: 10rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h1 {
+    border: 2rem;
+    background-color:  rgb(196, 196, 71);
+    display: inline-block;
+}
+
+div {
+    background-color:  rgb(50, 50, 174);
+    padding: 2rem;
+    
+}
+
+p {
+    background-color:  rgb(182, 59, 59);
+    max-width: 50%;
+    display: inline-block;
+}
