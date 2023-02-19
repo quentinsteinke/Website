@@ -15,6 +15,12 @@ section {
     text-align: center;
 }
 
+section img {
+    outline: 2px solid red;
+    object-fit: contain;
+    max-height: 100%;
+}
+
 h1 {
     border: 2rem;
     background-color:  rgb(196, 196, 71);
