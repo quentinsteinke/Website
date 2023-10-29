@@ -4,6 +4,10 @@
 # production build output
 /build
 
+# any temp folders
+public/temp
+/temp
+
 # React env files
 .env
 .env.local
